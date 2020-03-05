@@ -29,7 +29,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
  
 #define _POSIX_C_SOURCE 199309L
-#define _BSD_SOURCE
+#define _DEFAULT_SOURCE
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
@@ -160,7 +160,7 @@ char usage[]=
 "    bfsk_demod_cf <spacing> <filter_length>\n"
 "    normalized_timing_variance_u32_f <samples_per_symbol> <initial_sample_offset> [--debug]\n"
 "    ?<search_the_function_list>\n"
-"    ??<jump_to_function_docs_on_github>\n"
+"    ?\?<jump_to_function_docs_on_github>\n"
 "    =<evaluate_python_expression>\n"
 "    shift_addfast_cc <rate>   #only if system supports NEON \n"
 "    shift_unroll_cc <rate>\n"
